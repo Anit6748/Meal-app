@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meal App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>MEAL app</h1>
+  </header>
+  <main>
+    <div class="container">
+      <h2>Add a Meal</h2>
+      <form id="mealForm">
+        <label for="mealName">Meal Name:</label>
+        <input type="text" id="mealName" required placeholder="Enter Your Meal">
+        <label for="mealDescription">Meal Description:</label>
+        <textarea id="mealDescription" required placeholder="Enter Description"></textarea>
+        <button type="submit">Add</button>
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>Search Meals</h2>
+      <input type="text" id="searchInput" placeholder="Search meals...">
+      <ul id="mealList"></ul>
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
